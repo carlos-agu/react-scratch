@@ -2,7 +2,7 @@ import React from 'react';
 
 const OtherComponent = (props)=>{
     return (
-        <div className="display-4">This is other OtherComponent {props.name}</div>
+        <div className="display-3">This is other OtherComponent {props.name}</div>
     )
 }
 

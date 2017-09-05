@@ -9,8 +9,11 @@ class App extends Component {
             <div>
                 <NavBar />
                 <div className="container">
+
                     <OtherComponent name="Props!" />
-                    <div>Hello world react!</div>
+                    <div>
+                        <h1 className="display-4">Hello world react!</h1>
+                    </div>
                 </div>
             </div>
         );
